@@ -1,0 +1,34 @@
+<!DOCTYPE html>>
+    <head>
+        <meta charset="viewport" content="width=device-width, initial-space=1.0" />
+        <meta charset="UTF-8"/>
+        <title>Javascript: 事件處理</title>
+        <style>
+            .btn{
+                background-color:#ffcccc;
+                padding:8px;border-radius: 10px;
+                cursor:pointer; 
+            }
+        </style>
+    </head>
+    <body>
+        <h1>事件處裡練習</h1>
+        <span 
+            class="btn"
+            onmouseover="over(this);"
+            onmouseout="out(this)"
+        >click me</span>
+        <!--為何這邊的關鍵字是"this"? 而且為啥是紅色的-->
+        
+
+        
+        <script>
+            function over(elem){
+                elem.style.backgroundColor="#ddaaaa";
+            }
+            function out(elem){
+                elem.style.backgroundColor="#ffcccc"
+            }
+            
+        </script>
+    </body>
