@@ -1,19 +1,17 @@
-## Hi there 👋
+# Welcome to My GitHub Page! 👋
 
-<!--
-**clairehayashi/clairehayashi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Hello! I'm Claire, a passionate UI/UX Student] working on projects related to, honestly, IDEK. I love traveling, running marathons, going nuts.
 
-<Body>
+Feel free to explore my repositories, and if you have any questions or suggestions, don't hesitate to reach out!
 
-<h3>New here<h3/>
+## 🔧 Technologies I Work With:
+- HTML, CSS, JavaScript
+- Git, GitHub
+- Adobe Illustrator, Figma
 
-<Body/>
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📚 Current Projects:
+1. BDC
+2. Trying to graduate
+3. Tryign to survive
+
+Looking forward to connecting with like-minded people! 😊
