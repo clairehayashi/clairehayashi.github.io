@@ -1,0 +1,18 @@
+<footer>
+    <div class="footer-content">
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. Design with Intention.</p>
+        <div class="footer-links">
+            {% if site.author.social.instagram %}
+            <a href="{{ site.author.social.instagram }}" target="_blank" rel="noopener noreferrer">Instagram</a>
+            {% endif %}
+            
+            {% if site.author.social.linkedin %}
+            <a href="{{ site.author.social.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            {% endif %}
+            
+            {% if site.author.social.github %}
+            <a href="{{ site.author.social.github }}" target="_blank" rel="noopener noreferrer">GitHub</a>
+            {% endif %}
+        </div>
+    </div>
+</footer>
