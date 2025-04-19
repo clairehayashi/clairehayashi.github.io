@@ -1,0 +1,61 @@
+# _config.yml - Jekyll Configuration File
+
+# Site settings
+title: Claire Lin | Design with Intention
+description: Portfolio website showcasing interactive design work and personal projects
+url: "https://yourname.github.io" # Replace with your GitHub username
+baseurl: "" # Leave empty if hosting at root, or add subfolder name with leading slash
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - README.md
+  - .gitignore
+
+# Theme settings
+theme_color: "#00b4d8" # Primary color for meta tags
+logo: "/images/logo.png" # Path to your site logo
+
+# Author information
+author:
+  name: Claire Lin
+  bio: Designer with intention, creating meaningful interactive experiences
+  email: your-email@example.com # Replace with your email
+  social:
+    instagram: https://instagram.com/your-username
+    linkedin: https://linkedin.com/in/your-username
+    github: https://github.com/your-username
+
+# Collections (if you want to organize your projects or blog posts)
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+  
+# Default front matter for files
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+      
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap

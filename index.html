@@ -3,57 +3,163 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Claire's Website</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <title>Claire Lin | Design with Intention</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">My Website</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">Claire Lin</a>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#learning">Learning</a></li>
+                    <li><a href="#faith">Faith</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
+            </div>
+            <div class="menu-btn">
+                <div class="menu-btn__burger"></div>
             </div>
         </div>
     </nav>
-    
-    <!-- Hero Section -->
-    <header class="bg-primary text-white text-center py-5">
-        <div class="container">
-            <h1>It's Claire, that Girl who can Barely Code</h1>
-            <p class="lead">This is a simple website hosted on GitHub Pages.</p>
+
+    <!-- Hero Section with Interactive Stars -->
+    <section class="hero" id="home">
+        <div class="stars-container">
+            <!-- Stars will be generated with JavaScript -->
         </div>
-    </header>
-    
+        <div class="hero-content">
+            <h1>Claire Lin</h1>
+            <h2>Design with Intention</h2>
+            <p>Interactive Designer | Artist | Explorer</p>
+            <div class="scroll-indicator">
+                <p>Scroll to explore</p>
+                <div class="scroll-arrow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section class="work-section" id="work">
+        <div class="section-header">
+            <h2>Selected Work</h2>
+            <p>A collection of my interactive projects, animations, and designs</p>
+        </div>
+        <div class="work-grid">
+            <!-- Work items will be added here -->
+            <div class="work-item">
+                <div class="work-image">
+                    <!-- Replace with your work image -->
+                    <img src="images/placeholder.jpg" alt="Interactive Project">
+                </div>
+                <div class="work-info">
+                    <h3>Interactive Project</h3>
+                    <p>Description of your interactive project here.</p>
+                    <a href="#" class="view-project">View Project</a>
+                </div>
+            </div>
+            <!-- More work items can be added here -->
+        </div>
+        <div class="view-all">
+            <a href="work.html">View All Projects</a>
+        </div>
+    </section>
+
     <!-- About Section -->
-    <section id="about" class="py-5">
-        <div class="container text-center">
+    <section class="about-section" id="about">
+        <div class="section-header">
             <h2>About Me</h2>
-            <p>Currently a student playing around media design in Japan</p>
+        </div>
+        <div class="about-content">
+            <div class="about-image">
+                <!-- Replace with your personal photo -->
+                <img src="images/profile.jpg" alt="Claire Lin">
+            </div>
+            <div class="about-text">
+                <p>Hello! I'm Claire Lin, a designer focused on creating meaningful interactive experiences. My background spans from animation to coding, with a passion for making digital spaces more human and engaging.</p>
+                <p>When I'm not designing, you can find me making coffee (I'm a barista!), playing guitar, traveling by train, or exploring new creative techniques.</p>
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>Interactive Design</li>
+                        <li>Procreate Animation</li>
+                        <li>WOMP Projects</li>
+                        <li>Front-end Development</li>
+                        <!-- Add more skills as needed -->
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
-    
+
+    <!-- Learning Section -->
+    <section class="learning-section" id="learning">
+        <div class="section-header">
+            <h2>Learning Journey</h2>
+            <p>My progress in different subjects and skills</p>
+        </div>
+        <div class="learning-grid">
+            <!-- Learning items will be added here -->
+            <div class="learning-item">
+                <h3>Coding</h3>
+                <div class="progress-container">
+                    <div class="progress-bar" data-percent="60"></div>
+                </div>
+                <p>Front-end development with HTML, CSS, and JavaScript</p>
+            </div>
+            <!-- More learning items can be added here -->
+        </div>
+    </section>
+
+    <!-- Faith Section -->
+    <section class="faith-section" id="faith">
+        <div class="section-header">
+            <h2>QT with Jesus</h2>
+            <p>Reflections and spiritual exploration</p>
+        </div>
+        <div class="faith-content">
+            <!-- Faith content will be added here -->
+        </div>
+    </section>
+
     <!-- Contact Section -->
-    <section id="contact" class="bg-light py-5">
-        <div class="container text-center">
-            <h2>Contact</h2>
-            <p>Email: clairehayashi@keio.jp</p>
+    <section class="contact-section" id="contact">
+        <div class="section-header">
+            <h2>Get in Touch</h2>
+            <p>Let's collaborate on something amazing</p>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info">
+                <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+                <!-- Add your email or contact form here -->
+                <a href="mailto:your-email@example.com" class="contact-email">your-email@example.com</a>
+            </div>
+            <div class="social-links">
+                <!-- Add your social media links here -->
+                <a href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
+                <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
         </div>
     </section>
-    
+
     <!-- Footer -->
-    <footer class="bg-brown text-beige text-center py-3">
-        <p>&copy; 2025 My Website. All rights reserved.</p>
+    <footer>
+        <div class="footer-content">
+            <p>© 2025 Claire Lin. Design with Intention.</p>
+        </div>
     </footer>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Scripts -->
+    <script src="js/stars.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
-
-
